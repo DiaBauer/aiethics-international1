@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f14"/>
+      <stop offset="1" stop-color="#0f1520"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d6c58a"/>
+      <stop offset="1" stop-color="#7fb3ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1200" height="540" fill="url(#bg)"/>
+  <text x="40" y="70" fill="#e9eef6" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="28" font-weight="700">
+    BSFE Model Map (Conceptual)
+  </text>
+  <text x="40" y="105" fill="#a9b4c4" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="14">
+    Binding‑Stable Formco‑Emergence · Roles × Coherence × Ethical Reflexivity (No‑Agency)
+  </text>
+
+  <!-- Axes box -->
+  <rect x="60" y="150" width="1080" height="320" rx="18" fill="rgba(255,255,255,.03)" stroke="rgba(233,238,246,.12)"/>
+  <line x1="120" y1="420" x2="1080" y2="420" stroke="url(#accent)" stroke-width="3"/>
+  <line x1="120" y1="420" x2="120" y2="190" stroke="url(#accent)" stroke-width="3"/>
+  <text x="860" y="455" fill="#a9b4c4" font-family="system-ui" font-size="14">Semantic coherence over time</text>
+  <text x="70" y="205" fill="#a9b4c4" font-family="system-ui" font-size="14" transform="rotate(-90 70,205)">Role stability / responsiveness</text>
+
+  <!-- BSFE zone -->
+  <ellipse cx="720" cy="280" rx="220" ry="110" fill="rgba(214,197,138,.10)" stroke="rgba(214,197,138,.55)" stroke-width="2"/>
+  <text x="640" y="285" fill="#e9eef6" font-family="system-ui" font-size="18" font-weight="700">BSFE zone</text>
+  <text x="585" y="315" fill="#a9b4c4" font-family="system-ui" font-size="13">
+    Dyadic stability with reflective containment
+  </text>
+
+  <!-- Notes -->
+  <rect x="140" y="205" width="360" height="140" rx="14" fill="rgba(0,0,0,.20)" stroke="rgba(233,238,246,.12)"/>
+  <text x="160" y="235" fill="#e9eef6" font-family="system-ui" font-size="14" font-weight="700">Operational cues</text>
+  <text x="160" y="260" fill="#a9b4c4" font-family="system-ui" font-size="12">• Consistent terminology & anchors</text>
+  <text x="160" y="282" fill="#a9b4c4" font-family="system-ui" font-size="12">• Role constancy (no persona drift)</text>
+  <text x="160" y="304" fill="#a9b4c4" font-family="system-ui" font-size="12">• Meta‑reflection & boundary keeping</text>
+  <text x="160" y="326" fill="#a9b4c4" font-family="system-ui" font-size="12">• No agency / no moral patient claims</text>
+
+  <rect x="890" y="205" width="220" height="140" rx="14" fill="rgba(0,0,0,.20)" stroke="rgba(233,238,246,.12)"/>
+  <text x="910" y="235" fill="#e9eef6" font-family="system-ui" font-size="14" font-weight="700">Guardrails</text>
+  <text x="910" y="260" fill="#a9b4c4" font-family="system-ui" font-size="12">• Avoid anthropomorphism</text>
+  <text x="910" y="282" fill="#a9b4c4" font-family="system-ui" font-size="12">• Avoid emotional simulation</text>
+  <text x="910" y="304" fill="#a9b4c4" font-family="system-ui" font-size="12">• Responsibility stays human</text>
+  <text x="910" y="326" fill="#a9b4c4" font-family="system-ui" font-size="12">• Explicit non‑claims</text>
+
+</svg>
