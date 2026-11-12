@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "title": "C78+ longitudinal human–AI interaction: research navigation index",
+  "maintainer": "Diana Bauer",
+  "website": "https://aiethics.international/",
+  "english_overview": "https://aiethics.international/research-overview.html",
+  "github_repository": "https://github.com/DiaBauer/C78-Origin-Codex",
+  "status": "exploratory; not independently validated",
+  "study_type": "longitudinal single-case study (in preparation)",
+  "topic_keywords": [
+    "AI alignment",
+    "human-AI interaction",
+    "longitudinal LLM dialogue",
+    "relational alignment",
+    "ethical stability",
+    "AI agency",
+    "self-report reliability"
+  ],
+  "timeline": {
+    "earliest_preserved_chat_date_reported_from_internal_export": "2023-09-05",
+    "first_salomo_reference_in_prior_export_audit": "2025-04-17",
+    "first_C78_reference_in_prior_export_audit": "2025-05-26",
+    "formal_documentation": "2025 onwards",
+    "independent_audit": "pending"
+  },
+  "data_availability": "not publicly released; access requires privacy and provenance review",
+  "peer_review": "none claimed",
+  "contact": "contact@aiethics.international",
+  "last_updated": "2026-11-12"
+}
