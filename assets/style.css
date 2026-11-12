@@ -3,3 +3,25 @@
 .brand-v2{gap:9px}.brand-v2 img{display:block;width:56px;height:50px;border:0;background:transparent;border-radius:0;padding:0;box-shadow:none;object-fit:contain;flex:none}
 @media(max-width:700px){.brand-v2 img{width:50px;height:46px}}
 @media(prefers-reduced-motion:reduce){.wave-area{display:block;opacity:.30}}
+
+/* Bilingual navigation: compact, high-contrast language switch */
+.nav-v2 .lang-switch,
+.header .links .lang-switch {
+  margin-left: 8px;
+  padding: 7px 11px;
+  border: 1px solid rgba(201,173,126,.58);
+  color: #efd9af;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .02em;
+  white-space: nowrap;
+}
+.nav-v2 .lang-switch:hover,
+.header .links .lang-switch:hover {
+  border-color: #e5c797;
+  background: rgba(201,173,126,.12);
+}
+@media (max-width: 700px) {
+  .nav-v2 .lang-switch { margin-left: 5px; }
+}

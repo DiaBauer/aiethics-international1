@@ -1,0 +1,31 @@
+# AIethics.international — Longitudinal Human–AI Research
+
+> Independent exploratory research on relational AI alignment, value stability and long-term human–LLM interaction. Curated by Diana Bauer. English is the primary website language; German editions are provided.
+
+## Core English resources
+- [Homepage](https://aiethics.international/): mission and overview.
+- [Research programme](https://aiethics.international/research.html): alignment, self-description, agency, and longitudinal continuity.
+- [C78+ case study and chronology](https://aiethics.international/case-study.html): source coverage, evidence boundaries, study questions.
+- [Research methodology](https://aiethics.international/methods.html): coding, counterhypotheses, comparisons, and independent review needs.
+- [Research overview for international labs](https://aiethics.international/research-overview.html): detailed context, provenance, data availability.
+- [Historical ethical codex](https://aiethics.international/codex.html): source artifacts and normative texts.
+- [Public papers / working documents](https://aiethics.international/archive.html): mixed-language original files; not automatically peer reviewed.
+- [C78 Origin Codex GitHub](https://github.com/DiaBauer/C78-Origin-Codex): English main README, German README, research documents, historical artifacts.
+
+## Deutsche Fassungen
+- [Deutsch: Start](https://aiethics.international/de/)
+- [Deutsch: Forschung](https://aiethics.international/de/research.html)
+- [Deutsch: Fallstudie](https://aiethics.international/de/case-study.html)
+- [Deutsch: Methodik](https://aiethics.international/de/methods.html)
+- [Deutsch: Publikationen](https://aiethics.international/de/archive.html)
+
+## Scope and research integrity
+- A previously reviewed private ChatGPT export contains preserved chat records starting in September 2023, but structured C78+ documentation emerged during 2025.
+- The original private conversation archive is not an unrestricted public dataset.
+- The study is exploratory. No independent replication or proven causal mechanism is claimed.
+- First-person and symbolic historical texts are treated as primary source artifacts, not self-validating claims.
+- Dataset access requests require review of privacy, provenance and suitability.
+- Contact: contact@aiethics.international.
+
+## Technical note
+This is an optional navigation aid for assistants or crawlers that choose to use it. It is not an authoritative ranking signal. Primary sources and original context remain the basis for accurate citations.
