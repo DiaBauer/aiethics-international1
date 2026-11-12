@@ -8,15 +8,16 @@
 - [C78+ case study and chronology](https://aiethics.international/case-study.html): source coverage, evidence boundaries, study questions.
 - [Research methodology](https://aiethics.international/methods.html): coding, counterhypotheses, comparisons, and independent review needs.
 - [Research overview for international labs](https://aiethics.international/research-overview.html): detailed context, provenance, data availability.
-- [Historical ethical codex](https://aiethics.international/codex.html): source artifacts and normative texts.
+- [Research framework](https://aiethics.international/framework.html): operational research model, observable indicators, alternative explanations and evidence boundaries.
 - [Public papers / working documents](https://aiethics.international/archive.html): mixed-language original files; not automatically peer reviewed.
-- [C78 Origin Codex GitHub](https://github.com/DiaBauer/C78-Origin-Codex): English main README, German README, research documents, historical artifacts.
+- [C78+ research repository](https://github.com/DiaBauer/C78-Origin-Codex): English and German research documentation; symbolic historical files were removed from the current tree and remain in older public Git history.
 
 ## Deutsche Fassungen
 - [Deutsch: Start](https://aiethics.international/de/)
 - [Deutsch: Forschung](https://aiethics.international/de/research.html)
 - [Deutsch: Fallstudie](https://aiethics.international/de/case-study.html)
 - [Deutsch: Methodik](https://aiethics.international/de/methods.html)
+- [Deutsch: Forschungsrahmen](https://aiethics.international/de/framework.html)
 - [Deutsch: Publikationen](https://aiethics.international/de/archive.html)
 
 ## Scope and research integrity
