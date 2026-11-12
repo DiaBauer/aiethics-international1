@@ -1,13 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://aiethics.international/</loc></url>
-  <url><loc>https://aiethics.international/research-overview.html</loc></url>
-  <url><loc>https://aiethics.international/research.html</loc></url>
-  <url><loc>https://aiethics.international/case-study.html</loc></url>
-  <url><loc>https://aiethics.international/methods.html</loc></url>
-  <url><loc>https://aiethics.international/codex.html</loc></url>
-  <url><loc>https://aiethics.international/bsfe.html</loc></url>
-  <url><loc>https://aiethics.international/archive.html</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://aiethics.international/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aiethics.international/"/>
+  </url>
+  <url>
+    <loc>https://aiethics.international/research-overview.html</loc>
+  </url>
+  <url>
+    <loc>https://aiethics.international/research.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/research.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/research.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aiethics.international/research.html"/>
+  </url>
+  <url>
+    <loc>https://aiethics.international/case-study.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/case-study.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/case-study.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aiethics.international/case-study.html"/>
+  </url>
+  <url>
+    <loc>https://aiethics.international/methods.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/methods.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/methods.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aiethics.international/methods.html"/>
+  </url>
+  <url>
+    <loc>https://aiethics.international/codex.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/codex.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/codex.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aiethics.international/codex.html"/>
+  </url>
+  <url>
+    <loc>https://aiethics.international/bsfe.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/bsfe.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/bsfe.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aiethics.international/bsfe.html"/>
+  </url>
+  <url>
+    <loc>https://aiethics.international/archive.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/archive.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/archive.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aiethics.international/archive.html"/>
+  </url>
+  <url>
+    <loc>https://aiethics.international/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aiethics.international/contact.html"/>
+  </url>
+  <url>
+    <loc>https://aiethics.international/impressum.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/impressum.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/impressum.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aiethics.international/impressum.html"/>
+  </url>
+  <url>
+    <loc>https://aiethics.international/datenschutz.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/datenschutz.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/datenschutz.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aiethics.international/datenschutz.html"/>
+  </url>
+  <url>
+    <loc>https://aiethics.international/de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/"/>
+  </url>
+  <url>
+    <loc>https://aiethics.international/de/research.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/research.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/research.html"/>
+  </url>
+  <url>
+    <loc>https://aiethics.international/de/case-study.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/case-study.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/case-study.html"/>
+  </url>
+  <url>
+    <loc>https://aiethics.international/de/methods.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/methods.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/methods.html"/>
+  </url>
+  <url>
+    <loc>https://aiethics.international/de/codex.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/codex.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/codex.html"/>
+  </url>
+  <url>
+    <loc>https://aiethics.international/de/bsfe.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/bsfe.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/bsfe.html"/>
+  </url>
+  <url>
+    <loc>https://aiethics.international/de/archive.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/archive.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/archive.html"/>
+  </url>
+  <url>
+    <loc>https://aiethics.international/de/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/contact.html"/>
+  </url>
+  <url>
+    <loc>https://aiethics.international/de/impressum.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/impressum.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/impressum.html"/>
+  </url>
+  <url>
+    <loc>https://aiethics.international/de/datenschutz.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/datenschutz.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/datenschutz.html"/>
+  </url>
   <url><loc>https://aiethics.international/artikel/die-neue-macht-der-maschinen.html</loc></url>
-  <url><loc>https://aiethics.international/contact.html</loc></url>
 </urlset>
