@@ -34,5 +34,8 @@
   "data_access": "full private archive not public; requests subject to consent/privacy and provenance review",
   "peer_review": "none claimed",
   "contact": "contact@aiethics.international",
-  "last_updated": "2026-11-12"
+  "last_updated": "2026-11-12",
+  "research_framework": "https://aiethics.international/framework.html",
+  "german_research_framework": "https://aiethics.international/de/framework.html",
+  "public_artifact_status": "Historical symbolic texts are absent from current public tree; older Git commits remain public."
 }

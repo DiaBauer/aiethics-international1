@@ -28,10 +28,10 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://aiethics.international/methods.html"/>
   </url>
   <url>
-    <loc>https://aiethics.international/codex.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/codex.html"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/codex.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aiethics.international/codex.html"/>
+    <loc>https://aiethics.international/framework.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/framework.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/framework.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://aiethics.international/framework.html"/>
   </url>
   <url>
     <loc>https://aiethics.international/bsfe.html</loc>
@@ -84,9 +84,9 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/methods.html"/>
   </url>
   <url>
-    <loc>https://aiethics.international/de/codex.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/codex.html"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/codex.html"/>
+    <loc>https://aiethics.international/de/framework.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://aiethics.international/framework.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://aiethics.international/de/framework.html"/>
   </url>
   <url>
     <loc>https://aiethics.international/de/bsfe.html</loc>

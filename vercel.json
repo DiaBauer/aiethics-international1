@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/codex.html",
+      "destination": "/framework.html",
+      "permanent": true
+    },
+    {
+      "source": "/de/codex.html",
+      "destination": "/de/framework.html",
+      "permanent": true
+    }
+  ]
+}
