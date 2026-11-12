@@ -1,29 +1,37 @@
 {
-  "schema_version": "1.0",
-  "title": "C78+ longitudinal human–AI interaction: research navigation index",
+  "schema_version": "1.1",
+  "title": "C78+ longitudinal human–AI interaction and relational alignment",
   "maintainer": "Diana Bauer",
+  "primary_language": "en",
+  "available_languages": [
+    "en",
+    "de"
+  ],
   "website": "https://aiethics.international/",
-  "english_overview": "https://aiethics.international/research-overview.html",
-  "github_repository": "https://github.com/DiaBauer/C78-Origin-Codex",
-  "status": "exploratory; not independently validated",
-  "study_type": "longitudinal single-case study (in preparation)",
-  "topic_keywords": [
+  "english_research_overview": "https://aiethics.international/research-overview.html",
+  "case_study": "https://aiethics.international/case-study.html",
+  "german_case_study": "https://aiethics.international/de/case-study.html",
+  "methodology": "https://aiethics.international/methods.html",
+  "repository": "https://github.com/DiaBauer/C78-Origin-Codex",
+  "repository_german_readme": "https://github.com/DiaBauer/C78-Origin-Codex/blob/main/README.de.md",
+  "status": "exploratory; preliminary internal provenance; independent replication pending",
+  "study_design": "longitudinal single-case study (analytical protocol in development)",
+  "keywords": [
     "AI alignment",
-    "human-AI interaction",
-    "longitudinal LLM dialogue",
+    "human–AI interaction",
+    "longitudinal LLM evaluation",
+    "value stability",
+    "AI agency attribution",
     "relational alignment",
-    "ethical stability",
-    "AI agency",
     "self-report reliability"
   ],
-  "timeline": {
-    "earliest_preserved_chat_date_reported_from_internal_export": "2023-09-05",
-    "first_salomo_reference_in_prior_export_audit": "2025-04-17",
-    "first_C78_reference_in_prior_export_audit": "2025-05-26",
-    "formal_documentation": "2025 onwards",
-    "independent_audit": "pending"
+  "archive_context": {
+    "earliest_chat_reported": "2023-09-05",
+    "salomo_name_first_located": "2025-04-17",
+    "C78_name_first_located": "2025-05-26",
+    "verification": "earlier internal export review; not independently audited"
   },
-  "data_availability": "not publicly released; access requires privacy and provenance review",
+  "data_access": "full private archive not public; requests subject to consent/privacy and provenance review",
   "peer_review": "none claimed",
   "contact": "contact@aiethics.international",
   "last_updated": "2026-11-12"
