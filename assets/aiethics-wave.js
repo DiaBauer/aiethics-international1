@@ -84,28 +84,53 @@
     grad.addColorStop(1, 'rgba(9,26,39,0)');
     ctx.fillStyle = grad; ctx.fillRect(0, 0, w, h);
   }
+  function paintFabric(t) {
+    ctx.save(); ctx.globalCompositeOperation = 'screen';
+    for (let layer = 3; layer >= 0; layer--) {
+      const thickness = h * (.035 + layer * .021);
+      ctx.beginPath();
+      for (let k = 0; k <= 120; k++) {
+        const u = k / 120, xx = u * w;
+        const yy = waveY(u,t) - thickness * (.72 + .28 * Math.sin(Math.PI * u));
+        if (k === 0) ctx.moveTo(xx,yy); else ctx.lineTo(xx,yy);
+      }
+      for (let k = 120; k >= 0; k--) {
+        const u = k / 120, xx = u * w;
+        ctx.lineTo(xx, waveY(u,t) + thickness * (.80 + .30 * Math.sin(Math.PI * u)));
+      }
+      ctx.closePath();
+      const grad = ctx.createLinearGradient(0,0,w,0);
+      const a = .020 + (3 - layer) * .016;
+      grad.addColorStop(0, 'rgba(76,155,176,' + (a * .3) + ')');
+      grad.addColorStop(.35, 'rgba(144,215,227,' + (a * .85) + ')');
+      grad.addColorStop(.60, 'rgba(200,242,243,' + (a * 1.35) + ')');
+      grad.addColorStop(1, 'rgba(90,165,183,' + (a * .4) + ')');
+      ctx.fillStyle = grad; ctx.fill();
+    }
+    ctx.restore();
+  }
   function paintRibbon(t) {
     ctx.save(); ctx.globalCompositeOperation = 'screen';
     const n = small() ? 20 : 31;
     for (let j = 0; j < n; j++) {
       const f = j / (n - 1);
       const off = (f - .5) * .185;
-      const alpha = .028 + .065 * Math.pow(Math.sin(Math.PI * f), 2);
+      const alpha = .041 + .11 * Math.pow(Math.sin(Math.PI * f), 2);
       const grad = ctx.createLinearGradient(0, 0, w, 0);
       grad.addColorStop(0, 'rgba(98,158,176,' + alpha * .35 + ')');
       grad.addColorStop(.32, 'rgba(175,228,235,' + alpha * .72 + ')');
       grad.addColorStop(.57, 'rgba(230,248,248,' + alpha + ')');
       grad.addColorStop(.81, 'rgba(153,218,230,' + alpha * .82 + ')');
       grad.addColorStop(1, 'rgba(96,159,178,' + alpha * .24 + ')');
-      ctx.lineWidth = 1.15 + (1 - Math.abs(f - .5) * 2) * .38;
+      ctx.lineWidth = 1.6 + (1 - Math.abs(f - .5) * 2) * .7;
       ctx.strokeStyle = grad;
       buildLine(off, j, t); ctx.stroke();
     }
     for (let j = 0; j < 4; j++) {
       const off = -.017 + j * .010;
-      ctx.save(); ctx.globalAlpha = .29 - Math.abs(j - 1.5) * .04;
+      ctx.save(); ctx.globalAlpha = .48 - Math.abs(j - 1.5) * .07;
       ctx.strokeStyle = j === 1 ? '#e7f5f5' : '#9fdae5';
-      ctx.lineWidth = j === 1 ? 2.5 : 1.2;
+      ctx.lineWidth = j === 1 ? 3.1 : 1.5;
       ctx.shadowColor = '#9de4eb'; ctx.shadowBlur = j === 1 ? 13 : 5;
       buildLine(off, j + 48, t); ctx.stroke(); ctx.restore();
     }
@@ -115,7 +140,7 @@
     if (w <= 2 || h <= 2) return;
     const t = ms / 1000;
     ctx.clearRect(0, 0, w, h);
-    paintGlow(t); paintFrames(t); paintRibbon(t);
+    paintGlow(t); paintFrames(t); paintFabric(t); paintRibbon(t);
   }
   function tick(now) {
     if (!running) return;
