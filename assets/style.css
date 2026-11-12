@@ -59,3 +59,33 @@ code,pre{font-family:var(--mono)}
 pre{background:rgba(0,0,0,.28);border:1px solid var(--line);border-radius:14px;padding:12px;overflow:auto}
 .footer{margin-top:26px;border-top:1px solid var(--line);padding-top:16px;color:var(--muted);font-size:12px;display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
 @media (max-width:860px){h1{font-size:34px}.grid{grid-template-columns:1fr}.header{position:relative}}
+
+/* Responsive navigation and readable article layout on phones */
+img,svg{max-width:100%}
+pre{max-width:100%}
+@media (max-width:860px){
+  .nav{flex-direction:column;align-items:stretch;justify-content:flex-start;gap:12px}
+  .brand{min-width:0;max-width:100%}
+  .brand-title{min-width:0}
+  .brand-title b,.brand-title span{overflow-wrap:anywhere}
+  .links{width:100%;max-width:100%;justify-content:flex-start;gap:6px}
+  .links a{font-size:13px;padding:8px 9px}
+  .grid{grid-template-columns:minmax(0,1fr)}
+  .card,.section,.subtitle{min-width:0;overflow-wrap:break-word}
+}
+@media (max-width:520px){
+  .container{width:100%;max-width:100%;padding:18px 15px}
+  .hero{padding-top:18px}
+  .brand-title b{font-size:14px}
+  .brand-title span{font-size:11px}
+  .links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}
+  .links a{display:block;text-align:center;font-size:12px;padding:9px 6px;white-space:normal;overflow-wrap:anywhere}
+  .kicker{max-width:100%;flex-wrap:wrap;white-space:normal}
+  h1{font-size:clamp(29px,8vw,34px);overflow-wrap:break-word}
+  .article .article-hero h1{font-size:clamp(29px,8vw,38px);max-width:100%;overflow-wrap:break-word}
+  .article .article-hero .lead{font-size:17px}
+  .article .prose{min-width:0}
+  .article .prose p,.article .prose h2{overflow-wrap:break-word}
+  .footer{flex-direction:column;align-items:flex-start;gap:7px}
+  .cta .button{max-width:100%;white-space:normal}
+}
