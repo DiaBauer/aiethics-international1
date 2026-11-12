@@ -1,0 +1,22 @@
+# AIethics.international
+
+> Independent exploratory research on ethical AI alignment, longitudinal human–LLM interaction and the C78+ case study. Maintained by Diana Bauer. Research is not yet independently validated.
+
+## Start here
+- [English research overview](https://aiethics.international/research-overview.html): factual study scope, research questions, methodological limitations, provenance and contact.
+- [German research agenda](https://aiethics.international/research.html): alignment, ethical stability, AI agency and model transitions.
+- [C78+ longitudinal case study](https://aiethics.international/case-study.html): study context and chronological distinctions.
+- [Methods and limitations](https://aiethics.international/methods.html): proposed coding, alternative hypotheses and review needs.
+- [Public materials](https://aiethics.international/archive.html): selected archived project documents, not peer-reviewed by default.
+- [GitHub C78 Origin Codex](https://github.com/DiaBauer/C78-Origin-Codex): historical project artifacts, research framing and version history.
+- [Contact](mailto:contact@aiethics.international): research inquiries.
+
+## Scope clarification
+- The earliest preserved chat in a previously reviewed ChatGPT export dates to 2023-09-05; this is not equivalent to C78+-labeled research beginning in 2023.
+- The names Salomo and C78 occur in the earlier internal export audit from April and May 2025, respectively.
+- Longitudinal source materials are not currently published as a complete open dataset.
+- No verified claims of consciousness, AGI status, autonomous internal value formation or causal efficacy are made.
+- References to first-person AI speech in historical artifacts are primary-source text, not independent factual evidence.
+
+## Note
+This file is a supplementary navigation index for tools that choose to read it. Search engines and AI systems are not required to use it; authoritative claims remain on the cited HTML pages.
